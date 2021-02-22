@@ -17,9 +17,16 @@ class sapiens{
 };
 
 
+void function()
+{
+    sapiens shiba;
+}
+
 int main(){
-sapiens *shiba;
-shiba = new sapiens();
-delete shiba;
+//sapiens *shiba;
+//sapiens shiba;
+//shiba = new sapiens();
+//delete shiba;
+function();
 return 0;
 }

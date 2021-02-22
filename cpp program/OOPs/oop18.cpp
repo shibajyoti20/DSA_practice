@@ -32,7 +32,7 @@ int main()
 {
     base *ptr;
     derived obj;
-    ptr = &obj;
+    //ptr = &obj;
 
     ptr -> print();
     ptr -> disp();
