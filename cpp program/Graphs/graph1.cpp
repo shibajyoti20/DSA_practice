@@ -3,14 +3,15 @@ using namespace std;
 
 class Graph
 {
-    int V;
-    list<int> *adj;
-    bool isCyclicRec(int V, bool visted[],bool *rs);
+    private:
+        int V;
+        list<int> *adj;
+        bool isCyclicRec(int V, bool visted[],bool *rs);
 
     public:
-    Graph(int V);
-    void addEdge(int v,int w);
-    bool isCyclic();
+        Graph(int V);
+        void addEdge(int v,int w);
+        bool isCyclic();
 };
 
 Graph::Graph(int V)

@@ -1,4 +1,4 @@
-//Program to find fibbonacci sequence using the principle recursion.
+//Program to find fibbonacci sequence using the principle of recursion.
 
 #include<iostream>
 using namespace std;

@@ -22,7 +22,7 @@ public:
     {
         savings=isave;
     }
-    void intro()
+    void intro() override
     {
         cout<<"This is a farmer and he has "<<savings<<" Rs in his bank account"<<endl;
     }
