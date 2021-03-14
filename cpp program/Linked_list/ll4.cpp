@@ -114,22 +114,22 @@ int main()
 {
     node* head1=NULL;
     node* head2=NULL;
-    int arr1[]={1,2,5,9};
-    int arr2[]={3,4,8};
+    int arr1[]={-9,3};
+    int arr2[]={5,7};
 
-    for(int i=0;i<4;i++)
+    for(int i=0;i<2;i++)
     {
         insertAtTail(head1, arr1[i]);
     }
-    for(int i=0;i<3;i++)
+    for(int i=0;i<2;i++)
     {
         insertAtTail(head2,arr2[i]);
     }
     display(head1);
     display(head2);
-    node* newhead2=merged_list_recursive(head1,head2);
-    display(newhead2);
-    //node* newhead1 = merged_list_iterative(head1,head2);
-    //display(newhead1);
+    //node* newhead2=merged_list_recursive(head1,head2);
+    //display(newhead2);
+    node* newhead1 = merged_list_iterative(head1,head2);
+    display(newhead1);
     return 0;
 }

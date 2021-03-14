@@ -160,8 +160,8 @@ int main()
     insertAtTail(head,76);
     insertAtTail(head,38);
     display(head);
-    
-    int k=2;
+    insertAtTail(head,250);
+    int k=3;
     node* newhead1=reverseKnodes(head,k);
     cout<<"Reversing k nodes "<<endl;
     display(newhead1);
